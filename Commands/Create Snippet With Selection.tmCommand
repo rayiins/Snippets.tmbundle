@@ -27,6 +27,7 @@ SCOPES = (
     ("lisp",         lambda s: s.startswith('source.lisp'),             ),
     ("lua",          lambda s: s.startswith('source.lua'),              ),
     ("objective-c",  lambda s: s.startswith('source.objc'),             ),
+	("pig", 	     lambda s: s.startswith('source.pig'),      	    ),
     ("python",       lambda s: s.startswith('source.python'),           ),
     ("php",          lambda s: s.startswith('source.php'),              ),
     ("perl",         lambda s: s.startswith('source.perl'),             ),
